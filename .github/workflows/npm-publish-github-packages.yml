@@ -33,4 +33,4 @@ jobs:
       - run: npm install
       - run: npm start
         env: npm test
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          
